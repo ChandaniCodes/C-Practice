@@ -1,0 +1,6 @@
+
+* when an operator is overloaded with multiple jobs, it is known as operator overloading.
+* it is a way to implement compile time polymorphism.
+* any symbol can be used as function name
+    ->  it should be valid of C language.
+    -> can`t overload sizeof & ?: operator.

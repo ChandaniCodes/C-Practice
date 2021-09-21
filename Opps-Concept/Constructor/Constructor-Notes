@@ -1,0 +1,35 @@
+
+# CONSTRUCTOR
+
+=> DEFAULT CONSTRUCTOR 
+=> PARAMETERIZED CONSTRUCTOR
+=> CONSTRUCTOR OVERLOADING
+
+
+* it is a member function of a class.
+* the name of the constructor is same as the class.
+* it has no return type, so can`t use return keyword.
+* it can`t be static. it must be instance member function.
+
+* it is implicitily called when an object created. 
+* it is used to solve problem of initialization.
+* compiler create default & copy constructor when there is no constructor in a class.
+* compiler create only copy constructor when any constructor already created in a class.
+* if user already created default & copy constructor then compiler will not create default & copy constructor.
+
+
+*********************************************************************
+
+
+# DESTRUCTOR
+
+* it is a member function of a class.
+* the name of the constructor is same as the class.
+* it has no return type, so can`t use return keyword.
+* it can`t be static. it must be instance member function.
+* it invoked implicitily when object is going to destroy.
+
+# WHY DESTRUCTOR
+
+* it should be defined to release resources allocated to an object.
+

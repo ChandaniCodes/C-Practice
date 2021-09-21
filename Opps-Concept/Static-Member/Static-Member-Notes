@@ -1,0 +1,26 @@
+
+* STATIC LOCAL VARIABLE
+* STATIC MEMBER VARIABLE
+* STATIC MEMBER FUNTION
+
+-> STATIC LOCAL VARIABLE
+    ~ concept as it is taken from C.
+    ~ the variable preceeded by static keyword inside the function called static local variable.
+    ~ they are by default initialized to zero.
+    ~ their lifetime is throughout the program.
+
+
+-> STATIC MEMBER VARIABLE
+    ~ declared inside the class body.
+    ~ also known as class member variable.
+    ~ they must be defined outside the class.
+    ~ static member variable doesn`t belong to any object but to the whole class.
+    ~ there will be only one copy of static member variable for the whole class.
+    ~ any object can use the same copy variable.
+    ~ they can also be used with class name. 
+
+-> STATIC MEMBER FUNTION
+    ~ preceeded by static keyword.
+    ~ they are called class member function.
+    ~ they can called with or without object.
+    ~ they can only access static members of the class. 
