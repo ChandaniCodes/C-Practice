@@ -1,0 +1,13 @@
+
+FRIEND FUNCTION
+
+* It is not a member function of a class to which it is a FRIEND
+* It declared in the class using friend class keyword.
+* It must be defined outside the class to which it is friend.
+* It can access any member of class which it is  friend.
+* It can`t access memberof class directly.
+* It has no caller object.
+* It should not be defined using membership label (::).
+* FRIEND FUNCTION can become to more than 1 class.
+* FRIEND FUNCTION name can be same in every class.
+* FRIEND FUNCTION can be declared inside the class as public or private. It doesn`t matter what we declared
